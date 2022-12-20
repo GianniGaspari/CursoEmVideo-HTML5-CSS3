@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <style>
+        body{
+            color: white;
+            background-color: black;
+            
+        }
+    </style>
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <img src="imagens/favicon-32x32.png" alt="Tiger">
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente ou diminua o <strong>tamanho</strong>
+        
+        do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px+)" srcset="imagens/fotopequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotomedia.png" type="image/png">
+        <img src="imagens/fotogrande.png" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>
