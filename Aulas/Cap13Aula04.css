@@ -1,0 +1,113 @@
+/* Paleta de Cores
+
+
+
+
+/* site de paletas → www.color.adobe.com
+
+/* Color Theme Swatches in Hex */
+.Deep-Teal-Sea-1-hex { color: #012E40; }
+.Deep-Teal-Sea-2-hex { color: #024959; }
+.Deep-Teal-Sea-3-hex { color: #026773; }
+.Deep-Teal-Sea-4-hex { color: #3CA6A6; }
+.Deep-Teal-Sea-5-hex { color: #F2E3D5; }
+
+/* Color Theme Swatches in RGBA */
+.Deep-Teal-Sea-1-rgba { color: rgba(1, 45, 63, 1); }
+.Deep-Teal-Sea-2-rgba { color: rgba(2, 73, 89, 1); }
+.Deep-Teal-Sea-3-rgba { color: rgba(2, 103, 114, 1); }
+.Deep-Teal-Sea-4-rgba { color: rgba(59, 165, 165, 1); }
+.Deep-Teal-Sea-5-rgba { color: rgba(242, 226, 212, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Deep-Teal-Sea-1-hsla { color: hsla(197, 96, 12, 1); }
+.Deep-Teal-Sea-2-hsla { color: hsla(191, 95, 17, 1); }
+.Deep-Teal-Sea-3-hsla { color: hsla(186, 96, 22, 1); }
+.Deep-Teal-Sea-4-hsla { color: hsla(180, 46, 44, 1); }
+.Deep-Teal-Sea-5-hsla { color: hsla(28, 52, 89, 1); }
+
+
+
+
+
+/* site de paletas → www.paletton.com
+/* ↑ Ótimo site, com exemplos de paletas mto bons, mas ta com
+/* ...problemas para exportar os arquivos.
+			
+FFFFFF
+RGB: 255–255–255
+
+RGB [%]: 100–100–100
+
+F6C6C6
+RGB: 246–198–198
+
+RGB [%]: 96.5–77.6–77.6
+
+CF6B6B
+RGB: 207–107–107
+
+RGB [%]: 81.2–42–42
+
+A41A1A
+RGB: 164–26–26
+
+RGB [%]: 64.3–10.2–10.2
+
+8C0000
+RGB: 140–0–0
+
+RGB [%]: 54.9–0–0
+
+
+
+
+
+/* site de paletas → https://coolors.co/
+/* site legal: função legal de criar paletas.
+
+/* CSS HEX */
+--air-superiority-blue: #78a1bbff;
+--feldgrau: #395b50ff;
+--ruby-red: #a31621ff;
+--dark-purple: #1e152aff;
+--st-patricks-blue: #2f2963ff;
+
+/* CSS HSL */
+--air-superiority-blue: hsla(203, 33%, 60%, 1);
+--feldgrau: hsla(161, 23%, 29%, 1);
+--ruby-red: hsla(355, 76%, 36%, 1);
+--dark-purple: hsla(266, 33%, 12%, 1);
+--st-patricks-blue: hsla(246, 41%, 27%, 1);
+
+/* SCSS HEX */
+$air-superiority-blue: #78a1bbff;
+$feldgrau: #395b50ff;
+$ruby-red: #a31621ff;
+$dark-purple: #1e152aff;
+$st-patricks-blue: #2f2963ff;
+
+/* SCSS HSL */
+$air-superiority-blue: hsla(203, 33%, 60%, 1);
+$feldgrau: hsla(161, 23%, 29%, 1);
+$ruby-red: hsla(355, 76%, 36%, 1);
+$dark-purple: hsla(266, 33%, 12%, 1);
+$st-patricks-blue: hsla(246, 41%, 27%, 1);
+
+/* SCSS RGB */
+$air-superiority-blue: rgba(120, 161, 187, 1);
+$feldgrau: rgba(57, 91, 80, 1);
+$ruby-red: rgba(163, 22, 33, 1);
+$dark-purple: rgba(30, 21, 42, 1);
+$st-patricks-blue: rgba(47, 41, 99, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-right: linear-gradient(90deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-bottom: linear-gradient(180deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-left: linear-gradient(270deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-top-right: linear-gradient(45deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-bottom-right: linear-gradient(135deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-top-left: linear-gradient(225deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-bottom-left: linear-gradient(315deg, #78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);
+$gradient-radial: radial-gradient(#78a1bbff, #395b50ff, #a31621ff, #1e152aff, #2f2963ff);

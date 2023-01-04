@@ -1,0 +1,27 @@
+/* CAPITULO 13 → AULA 05
+/* → Como capturar paletas da tela do computador
+
+/* adicionar extensão "Colorzilla" do Chrome.
+
+/* Para essa aula, escolhi uma cor no site da globo, depois criei uma paleta monocromática no site color.adobe.com ↓
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #1FB25A; }
+.My-Color-Theme-2-hex { color: #69DF98; }
+.My-Color-Theme-3-hex { color: #25D96D; }
+.My-Color-Theme-4-hex { color: #2A593D; }
+.My-Color-Theme-5-hex { color: #1CA653; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(31, 178, 90, 1); }
+.My-Color-Theme-2-rgba { color: rgba(105, 223, 152, 1); }
+.My-Color-Theme-3-rgba { color: rgba(37, 217, 109, 1); }
+.My-Color-Theme-4-rgba { color: rgba(42, 89, 61, 1); }
+.My-Color-Theme-5-rgba { color: rgba(28, 166, 83, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(144, 70, 40, 1); }
+.My-Color-Theme-2-hsla { color: hsla(143, 64, 64, 1); }
+.My-Color-Theme-3-hsla { color: hsla(144, 70, 49, 1); }
+.My-Color-Theme-4-hsla { color: hsla(144, 35, 25, 1); }
+.My-Color-Theme-5-hsla { color: hsla(143, 71, 38, 1); }
