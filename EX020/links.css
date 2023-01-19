@@ -1,0 +1,44 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+.especial {
+    background-color: rgb(144, 144, 255);
+    color: rgb(255, 0, 106);
+}
+
+.especial::before {
+    content: '→ ';
+}
+
+.especial::after {
+    content: ' ←';
+}
+
+/*
+
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children
+    
+*/

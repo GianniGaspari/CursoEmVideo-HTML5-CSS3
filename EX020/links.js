@@ -1,0 +1,1 @@
+prompt('Olá, seja bem vindo.\n Qual o seu nome?')
