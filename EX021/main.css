@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 350px;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    */
+    border: 10px solid rgb(32, 32, 32);
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+             =
+    padding: 10px 10px 10px 10px;
+             =
+    padding: 10px;
+    */
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+h1:hover {
+    background-color: rgb(32, 32, 32);
+    color: rgb(253, 0, 0);
+    height: 50px;
+    width: 350px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(199, 3, 3);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: orange;
+}
+
+a {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: rgb(122, 126, 129);
+    color: rgb(155, 33, 33);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    outline-width: 1px;
+    outline-style: dashed;
+    outline-color: orange;
+}
+
+a:hover {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: aliceblue;
+    color: red;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: rgb(155, 33, 33);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+p:hover {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgba(156, 201, 240, 0.644);
+    color: red;
+}
+
+div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-width: 10px;
+    text-align: center;
+}
+
+div:hover {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: rgba(255, 0, 0, 0.13);
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+span:hover {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    display: block;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: rgba(255, 0, 0, 0.281);
+}
+
+.box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: rgba(255, 0, 0, 0.13);
+}
