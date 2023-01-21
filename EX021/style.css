@@ -1,0 +1,89 @@
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: dimgray;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(228, 228, 228, 0.226);
+    padding: 10px;
+    margin: 10px 320px 10px 320px;
+    box-shadow: -2px 3px 3px 0px black;
+}
+
+header > h1 {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.733);
+    margin: 10px;
+    padding: 1px;
+    width: 190px;
+    height: 35px;
+    box-shadow: -2px 3px 3px 0px black;
+    text-align: center;
+}
+
+a {
+    padding: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p > a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+p > a:hover {
+    background-color: rgb(38, 38, 75);
+    color: rgba(255, 255, 255, 0.733);
+    padding: 10px;
+    text-decoration: underline;
+    box-shadow: -2px 3px 3px 0px black;
+}
+
+nav {
+    background-color: brown;
+    padding: 3px;
+    margin: 10px;
+    box-shadow: -2px 3px 6px 2px black;
+    width: 750px;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+main {
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    margin: 10px;           
+    box-shadow: -2px 3px 3px 0px black;
+}
+
+article {
+    background-color: rgb(173, 173, 173);
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(119, 119, 119);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(141, 141, 141);
+    padding: 10px;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
