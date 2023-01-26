@@ -9,6 +9,7 @@ header {
     padding: 10px;
     margin: 10px 320px 10px 320px;
     box-shadow: -2px 3px 3px 0px black;
+    border-radius: 10px;
 }
 
 header > h1 {
@@ -20,6 +21,7 @@ header > h1 {
     height: 35px;
     box-shadow: -2px 3px 3px 0px black;
     text-align: center;
+    border-radius: 5px;
 }
 
 a {
@@ -50,6 +52,7 @@ nav {
     box-shadow: -2px 3px 6px 2px black;
     width: 750px;
     text-align: center;
+    border-radius: 5px;
 }
 
 nav > a {
@@ -64,6 +67,7 @@ main {
     padding: 10px;
     margin: 10px;           
     box-shadow: -2px 3px 3px 0px black;
+    border-radius: 10px;
 }
 
 article {
@@ -86,4 +90,12 @@ footer {
 
 footer > p {
     margin: 0px;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 50%;
 }
